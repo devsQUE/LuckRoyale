@@ -124,9 +124,9 @@
   });
 })();
 
-function goToLogin() {
-  window.open("facebook/index.html", "_blank");
-}
+// function goToLogin() {
+//   window.open("facebook/index.html", "_blank");
+// }
 function cancel() {
     const disply = document.querySelector(".main-container");
     const content = document.querySelector(".glassOfWheel");
