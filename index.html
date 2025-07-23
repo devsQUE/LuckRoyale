@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Luck Royal</title>
+    <link rel="shortcut icon" href="images/icon.png"/>
+    <meta name="theme-color" content="	#161623" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,    user-scalable=no" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="glassOfWheel">
+        <img class="wheel" src="images\wheel.png">
+        <button class="spin"></button>
+        <img class="arrow" src="images/arrow.png">
+      </div>
+
+
+      <div class="main-container">
+        <div class="main-card">
+          <h1 class="greeting"></h1>
+          <div class="prize"></div>
+          <div class="redeem"></div>
+          <button type="submit" onclick="goToLogin()" id="submit">
+            Redeem
+          </button>
+          <button class="cancel" onclick="cancel()">X</button>
+        </div>
+      </div>
+    </div>
+    <script src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".content"), {
+        max: 25,
+        speed: 400,
+        glare: false,
+        "max-glare": 1,
+      });
+    </script>
+    <script src="royale.js"></script>
+  </body>
+</html>
