@@ -1,4 +1,4 @@
-#Luck Royale
+# Luck Royale
 
 ## 🎡 Spin-to-Win Randomizer Wheel
 
